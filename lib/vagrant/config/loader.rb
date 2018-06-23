@@ -34,8 +34,8 @@ module Vagrant
       # The `name` should be a symbol and must uniquely identify the data
       # being given.
       #
-      # `data` can either be a path to a Ruby Vagrantfile or a `Proc` directly.
-      # `data` can also be an array of such values.
+      # `sources` can either be a path to a Ruby Vagrantfile or a `Proc` directly.
+      # `sources` can also be an array of such values.
       #
       # At this point, no configuration is actually loaded. Note that calling
       # `set` multiple times with the same name will override any previously
